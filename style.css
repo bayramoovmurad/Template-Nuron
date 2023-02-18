@@ -704,7 +704,7 @@ transition: 1s ease;
 .bottom_cont_center{
   margin-top: 20px;
 }
-.bottom_inputt_up{
+.bottom_cont_up{
   color: var(--grey);
   display: flex;
   align-items: center;
