@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Nuron</title>
+    <!-- <link rel = "icon" href = 
+    "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+        type = "image/x-icon"> -->
+        <link rel="icon" href="./img/2.PNG">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+<!-- Cursor Library -->
+<script src="https://cdn.jsdelivr.net/npm/kursor"></script>
+<script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+
+
+ 
+<script src="jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <div class="header-container-left">
+            <div class="logo-img">
+
+            </div>
+            <div class="hamb_menu">
+                <div class="header">
+                    <button class="hamburger">&#9776;</button>
+                    <button class="cross">&#735;</button>
+                </div>
+                  
+                  <div class="menu">
+                    <ul>
+                      <a href="#"><li>HOME</li></a>
+                      <a href="#"><li>ABOUT</li></a>
+                      <a href="#"><li>PORTFOLIO</li></a>
+                      <a href="#"><li>BLOG</li></a>
+                      <a href="#"><li>CONTACT</li></a>
+                      <a class="menu-search" href="#"><li>
+                        <div class="input_con">
+                            <input type="text" class="input" placeholder="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                          </div>
+                      </li></a>
+                    </ul>
+                  </div> 
+            </div>
+
+            
+           
+
+            
+            <nav>
+                <div class="dropdown">
+                    <button class="dropbtn">Home</button>
+                    <div class="dropdown-content">
+                        <a href="#">Home1</a>
+                        <a href="#">Home2</a>
+                        <a href="#">Home3</a>
+                    </div>
+                </div>
+                <a href="#">About</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Explore</button>
+                    <div class="dropdown-content">
+                        <a href="#">Home1</a>
+                        <a href="#">Home2</a>
+                        <a href="#">Home3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Pages</button>
+                    <div class="dropdown-content">
+                        <a href="#">Home1</a>
+                        <a href="#">Home2</a>
+                        <a href="#">Home3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Blog</button>
+                    <div class="dropdown-content">
+                        <a href="#">Home1</a>
+                        <a href="#">Home2</a>
+                        <a href="#">Home3</a>
+                    </div>
+                </div>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <div class="header-container-right">
+            <div class="input_con">
+                <input type="text" class="input" placeholder="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </div>
+                <a class="wallet" href="#">Wallet connect</a>
+            <button class="bell">
+                <i class="fa-solid fa-bell"></i>
+            </button>
+           
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            </div>
+        </div>
+</header> 
+<main>
+<section>
+        
+        <div class="shadow">
+            <div class="first_cont">
+                <div class="first_section_left">
+                    <h2>
+                     Discover Digital Art, Collect and Sell Your Specific NFTs.
+                    </h2>
+                    <p>
+                     Partner with one of the world’s largest retailers to showcase your brand and
+                         products.
+                    </p>
+                    <div class="left_buttons">
+                     <a class="get" href="#">Get Started</a>
+                     <a class="create" href="#">Create</a>
+                    </div>
+                 </div>
+                 <div class="first_section_right">
+                     <img src="./img/slider-1.png" alt="">
+                 </div>
+            </div>
+            <div id="progress">
+                <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+              </div>
+            </div>
+    </section>
+<section>
+    <div class="shadow">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="btn">
+                        <div class="scale">
+                            <img class="mainpic" src="./img/portfolio-07.jpg" alt="">
+                            <div class="timer">
+                                <div class="timer timer-1">
+                                    <div class="timer__items">
+                                      <div class="timer__item timer__days">
+                                        <div class="glass">
+                                            00
+                                        </div>
+                                    </div>
+                                      <div class="timer__item timer__hours">00</div>
+                                      <div class="timer__item timer__minutes">00</div>
+                                      <div class="timer__item timer__seconds">00</div>
+                                    </div>
+                                    <div class="timer__result"></div>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="bottom_cont">
+                            <div class="bottom_cont_up">
+                                <img src="./img/Снимок-removebg-preview.png" alt="">
+                                <p>20+ Place Bit.</p>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                            <div class="bottom_cont_center">
+                                <p>Preatent</p>
+                                <p>Highest bid 1/20</p>
+                            </div>
+                            <div class="bottom_cont_down">
+                                <p>0.244wETH</p>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>322</span>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="btn">
+                        <div class="scale">
+                            <img class="mainpic" src="./img/portfolio-10.jpg" alt="">
+                            <div class="timer">
+                                <div class="timer timer-2">
+                                    <div class="timer__items">
+                                      <div class="timer__item timer__days">
+                                        <div class="glass">
+                                            00
+                                        </div>
+                                    </div>
+                                      <div class="timer__item timer__hours">00</div>
+                                      <div class="timer__item timer__minutes">00</div>
+                                      <div class="timer__item timer__seconds">00</div>
+                                    </div>
+                                    <div class="timer__result"></div>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="bottom_cont">
+                            <div class="bottom_cont_up">
+                                <img src="./img/Снимок-removebg-preview.png" alt="">
+                                <p>20+ Place Bit.</p>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                            <div class="bottom_cont_center">
+                                <p>Preatent</p>
+                                <p>Highest bid 1/20</p>
+                            </div>
+                            <div class="bottom_cont_down">
+                                <p>0.244wETH</p>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>322</span>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="btn">
+                        <div class="scale">
+                            <img class="mainpic" src="./img/portfolio-03 (1).jpg" alt="">
+                            <div class="timer">
+                                <div class="timer timer-3">
+                                    <div class="timer__items">
+                                      <div class="timer__item timer__days">
+                                        <div class="glass">
+                                            00
+                                        </div>
+                                    </div>
+                                      <div class="timer__item timer__hours">00</div>
+                                      <div class="timer__item timer__minutes">00</div>
+                                      <div class="timer__item timer__seconds">00</div>
+                                    </div>
+                                    <div class="timer__result"></div>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="bottom_cont">
+                            <div class="bottom_cont_up">
+                                <img src="./img/Снимок-removebg-preview.png" alt="">
+                                <p>20+ Place Bit.</p>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                            <div class="bottom_cont_center">
+                                <p>Preatent</p>
+                                <p>Highest bid 1/20</p>
+                            </div>
+                            <div class="bottom_cont_down">
+                                <p>0.244wETH</p>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>322</span>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="btn">
+                        <div class="scale">
+                            <img class="mainpic" src="./img/portfolio-06.jpg" alt="">
+                            <div class="timer">
+                                <div class="timer-5">
+                                    <div class="timer__items">
+                                      <div class="timer__item timer__days">
+                                        <div class="glass">
+                                            00
+                                        </div>
+                                    </div>
+                                      <div class="timer__item timer__hours">00</div>
+                                      <div class="timer__item timer__minutes">00</div>
+                                      <div class="timer__item timer__seconds">00</div>
+                                    </div>
+                                    <div class="timer__result"></div>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="bottom_cont">
+                            <div class="bottom_cont_up">
+                                <img src="./img/Снимок-removebg-preview.png" alt="">
+                                <p>20+ Place Bit.</p>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                            <div class="bottom_cont_center">
+                                <p>Preatent</p>
+                                <p>Highest bid 1/20</p>
+                            </div>
+                            <div class="bottom_cont_down">
+                                <p>0.244wETH</p>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>322</span>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="btn">
+                        <div class="scale">
+                            <img class="mainpic" src="./img/portfolio-10.jpg" alt="">
+                            <div class="timer">
+                                <div class="timer timer-6">
+                                    <div class="timer__items">
+                                      <div class="timer__item timer__days">
+                                        <div class="glass">
+                                            00
+                                        </div>
+                                    </div>
+                                      <div class="timer__item timer__hours">00</div>
+                                      <div class="timer__item timer__minutes">00</div>
+                                      <div class="timer__item timer__seconds">00</div>
+                                    </div>
+                                    <div class="timer__result"></div>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="bottom_cont">
+                            <div class="bottom_cont_up">
+                                <img src="./img/Снимок-removebg-preview.png" alt="">
+                                <p>20+ Place Bit.</p>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                            <div class="bottom_cont_center">
+                                <p>Preatent</p>
+                                <p>Highest bid 1/20</p>
+                            </div>
+                            <div class="bottom_cont_down">
+                                <p>0.244wETH</p>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>322</span>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="cc">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>  
+              </div>
+        </div>
+</div>
+</section>
+<section>
+    <div class="shadow">
+        <div class="second_section">
+            <h2>Create and sell your NFTs</h2>
+            <div class="card_container">
+                <div class="second_section_card">
+                    <img src="./img/shape-7.png" alt="">
+                    <p>STEP-01</p>
+                    <h4>Set up your wallet</h4>
+                    <p>Powerful features and inclusions, which makes Nuron standout,
+                        easily customizable and scalable.</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="second_section_card">
+                    <img src="./img/shape-1.png" alt="">
+                    <p>STEP-01</p>
+                    <h4>Set up your wallet</h4>
+                    <p>Powerful features and inclusions, which makes Nuron standout,
+                        easily customizable and scalable.</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="second_section_card">
+                    <img src="./img/shape-5.png" alt="">
+                    <p>STEP-01</p>
+                    <h4>Set up your wallet</h4>
+                    <p>Powerful features and inclusions, which makes Nuron standout,
+                        easily customizable and scalable.</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="second_section_card">
+                    <img src="./img/shape-6.png" alt="">
+                    <p>STEP-01</p>
+                    <h4>Set up your wallet</h4>
+                    <p>Powerful features and inclusions, which makes Nuron standout,
+                        easily customizable and scalable.</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+ </section>  
+<section>
+        <div class="newest">
+            <h2>Newest Items</h2>
+
+            <div class="newest_card_cont">
+                <div class="btn">
+                    <div class="scale">
+                        <img class="mainpic" src="./img/portfolio-01 (1).jpg" alt="">
+                    </div>
+                    <div class="bottom_cont">
+                        <div class="bottom_cont_up">
+                            <img src="./img/Снимок-removebg-preview.png" alt="">
+                            <p>20+ Place Bit.</p>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="bottom_cont_center">
+                            <p>Preatent</p>
+                            <p>Highest bid 1/20</p>
+                        </div>
+                        <div class="bottom_cont_down">
+                            <p>0.244wETH</p>
+                            <div class="likes">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>322</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <div class="scale">
+                        <img class="mainpic" src="./img/portfolio-02 (1).jpg" alt="">
+                    </div>
+                    <div class="bottom_cont">
+                        <div class="bottom_cont_up">
+                             <img src="./img/Снимок-removebg-preview.png" alt="">
+                            <p>20+ Place Bit.</p>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="bottom_cont_center">
+                            <p>Preatent</p>
+                            <p>Highest bid 1/20</p>
+                        </div>
+                        <div class="bottom_cont_down">
+                            <p>0.244wETH</p>
+                            <div class="likes">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>322</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <div class="scale">
+                        <img class="mainpic" src="./img/portfolio-03 (1).jpg" alt="">
+                    </div>
+                    <div class="bottom_cont">
+                        <div class="bottom_cont_up">
+                             <img src="./img/Снимок-removebg-preview.png" alt="">
+                            <p>20+ Place Bit.</p>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="bottom_cont_center">
+                            <p>Preatent</p>
+                            <p>Highest bid 1/20</p>
+                        </div>
+                        <div class="bottom_cont_down">
+                            <p>0.244wETH</p>
+                            <div class="likes">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>322</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <div class="scale">
+                        <img class="mainpic" src="./img/portfolio-04.jpg" alt="">
+                    </div>
+                    <div class="bottom_cont">
+                        <div class="bottom_cont_up">
+                             <img src="./img/Снимок-removebg-preview.png" alt="">
+                            <p>20+ Place Bit.</p>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="bottom_cont_center">
+                            <p>Preatent</p>
+                            <p>Highest bid 1/20</p>
+                        </div>
+                        <div class="bottom_cont_down">
+                            <p>0.244wETH</p>
+                            <div class="likes">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>322</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <div class="scale">
+                        <img class="mainpic" src="./img/portfolio-05.jpg" alt="">
+                    </div>
+                    <div class="bottom_cont">
+                        <div class="bottom_cont_up">
+                             <img src="./img/Снимок-removebg-preview.png" alt="">
+                            <p>20+ Place Bit.</p>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="bottom_cont_center">
+                            <p>Preatent</p>
+                            <p>Highest bid 1/20</p>
+                        </div>
+                        <div class="bottom_cont_down">
+                            <p>0.244wETH</p>
+                            <div class="likes">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>322</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+<section>
+    <div class="shadow">
+    <div class="seller_cont">
+      <div class="seller_text_one">
+        <h2>Top Seller in
+            <span>
+                <select>
+                    <option value="1">1 day</option>
+                    <option value="2">7 day's</option>
+                    <option value="3">15 day's</option>
+                    <option value="4">30 day's</option>
+                </select>
+            </span>
+        </h2>
+      </div>
+      <div class="seller_items">
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-12.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>1</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-2.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>2</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-3.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>3</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-4.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>4</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-5.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>5</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-6.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>6</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-7.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>7</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-8.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>8</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-9.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>9</p>
+            </div>
+            <div class="seller_card">
+                <div class="seller_img_text">
+                    <img src="./img/client-10.png" alt="">
+                    <div class="seller_text">
+                        <h4>BrodBand</h4>
+                        <h5>$2500,000</h5>
+                    </div>
+                </div>  
+                <p>10</p>
+            </div>
+      </div>
+    </div>
+    </div>
+</section>
+<section>
+    <div class="shadow">
+      <div class="collection_cont">
+        <div class="collection_text">
+            <h3>Top Collection</h3>
+            <p>View All</p>
+        </div>  
+
+        <div class="collection_cards_cont">
+            <div class="collection_card">
+                <div class="top_img">
+                    <div class="scale">
+                    <img src="./img/collection-lg-01.jpg" alt="">
+                </div>
+                </div>
+                <div class="bottom_img">
+                    <img src="./img/collection-sm-01.jpg" alt="">
+                    <img src="./img/collection-sm-02.jpg" alt="">
+                    <img src="./img/collection-sm-03.jpg" alt="">
+                    <img class="roundimg" src="./img/client-15.png" alt="">
+                </div>
+                <div class="botom_text">
+                    <h5>Cubic Trad</h5>
+                    <p>27 Items</p>
+                </div>
+            </div>
+            <div class="collection_card">
+                <div class="top_img">
+                    <div class="scale">
+                    <img src="./img/collection-lg-03.jpg" alt="">
+                </div>
+                </div>
+                <div class="bottom_img">
+                    <img src="./img/collection-sm-04.jpg" alt="">
+                    <img src="./img/collection-sm-05.jpg" alt="">
+                    <img src="./img/collection-sm-06.jpg" alt="">
+                    <img class="roundimg" src="./img/client-12.png" alt="">
+                </div>
+                <div class="botom_text">
+                    <h5>Cubic Trad</h5>
+                    <p>27 Items</p>
+                </div>
+            </div>
+            <div class="collection_card">
+                <div class="top_img">
+                    <div class="scale">
+                    <img src="./img/collection-lg-02.jpg" alt="">
+                </div>
+                </div>
+                <div class="bottom_img">
+                    <img src="./img/collection-sm-07.jpg" alt="">
+                    <img src="./img/collection-sm-08.jpg" alt="">
+                    <img src="./img/collection-sm-09.jpg" alt="">
+                    <img class="roundimg" src="./img/client-13.png" alt="">
+                </div>
+                <div class="botom_text">
+                    <h5>Cubic Trad</h5>
+                    <p>27 Items</p>
+                </div>
+            </div>
+            <div class="collection_card">
+                <div class="top_img">
+                    <div class="scale">
+                    <img src="./img/collection-lg-04.jpg" alt="">
+                </div>
+                </div>
+                <div class="bottom_img">
+                    <img src="./img/collection-sm-10.jpg" alt="">
+                    <img src="./img/collection-sm-11.jpg" alt="">
+                    <img src="./img/collection-sm-12.jpg" alt="">
+                    <img class="roundimg" src="./img/client-14.png" alt="">
+                </div>
+                <div class="botom_text">
+                    <h5>Cubic Trad</h5>
+                    <p>27 Items</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+</section>
+</main>
+<footer>
+    <div class="footer_cont">
+        <div class="footer_left">
+            <div class="footer_logo">
+                <div class="logo-img">
+               
+                </div>
+                <h3>Created with the collaboration of over 60 of the world's best Nuron Artists.</h3>
+            </div>
+            <div class="user_cont">
+                <h4>Get The Latest Nuron Updates</h4>
+            <div class="user">
+                
+                <input type="text" placeholder="Your username">
+                <button>Subscribe</button>
+            </div>
+            </div>
+            
+        </div>
+        <div class="footer_center">
+            <div class="center_left">
+                <h3>Nuron</h3>
+                <ul>
+                    <li>
+                        <a  href="" class="hover-underline-animation">Protocol Explore</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">System Token</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Otimize Time</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Visual Checking</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Fadeup System</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Activity Log</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">System Auto Since</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="center_right">
+                <h3>Information</h3>
+                <ul>
+                    <li>
+                        <a  href="" class="hover-underline-animation">Market Explore</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Ready Token</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Main Option</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Product Checking</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Fix Bug</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">Blog Grid</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover-underline-animation">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_right">
+            <h3>Recent Sold Out</h3>
+            <div class="small_card">
+                <img src="./img/portfolio-01.jpg" alt="">
+                <div class="small_text">
+                    <h5>#21 The Wonder</h5>
+                    <p>Highest bid 1/20</p>
+                    <h6>0.244wETH</h6>
+                </div>
+            </div>
+            <div class="small_card second_card">
+                <img src="./img/portfolio-02.jpg" alt="">
+                <div class="small_text">
+                    <h5>Diamond Dogr</h5>
+                    <p>Highest bid 1/20</p>
+                    <h6>0.022wETH</h6>
+                </div>
+            </div>
+            <div class="small_card">
+                <img src="./img/portfolio-03.jpg" alt="">
+                <div class="small_text">
+                    <h5>Morgan11</h5>
+                    <p>Highest bid 1/20</p>
+                    <h6>0.892wETH</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/kursor"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous"></script> 
+<script src="./script.js"></script>
+<script src="./jquery.js"></script>
+</body>
+</html>
+
